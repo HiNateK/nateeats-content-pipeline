@@ -4,7 +4,7 @@ The publishing and translation system behind [NateEatsHawaii](https://nateeatsha
 
 The Japanese content produced by this pipeline drives **roughly a third of all site traffic**:
 
-![Traffic by country — last 30 days](docs/images/analytics.png)
+![Traffic by country — last 30 days](docs/images/traffic.png)
 
 This repo contains the two production scripts, extracted from the site's private codebase. They reference the parent Next.js app's structure (`lib/articles.ts`, `app/[locale]/…`), so read them as production source, not a drop-in CLI.
 
