@@ -1,0 +1,21 @@
+{
+  "name": "nateeats-content-pipeline",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Bilingual (EN/JA) publishing pipeline behind nateeatshawaii.com — Claude API translation + one-command article publishing",
+  "scripts": {
+    "translate": "tsx scripts/translate.ts",
+    "publish-article": "node scripts/publish-article.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.74.0",
+    "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5"
+  },
+  "author": "Nejc (Nate) Anisco",
+  "license": "MIT"
+}
